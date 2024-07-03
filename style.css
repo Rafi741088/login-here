@@ -1,0 +1,89 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.login-box{
+    width: 600px;
+    margin: 0% auto;
+    background: grey;
+    padding: 60px;
+    border-radius: 30px;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+
+
+}
+.login{
+    width: 100%;
+    
+}
+.login .avater{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+}
+.login .avater img{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    margin: 0px 0px 20px;
+}
+.login .avater h1{
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 52px;
+}
+.login .form-group{
+    width: 100%;
+    margin: 0px 0px 15px;
+
+}
+.login .form-group label{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.login .form-group .form-control{
+    padding: 15px;
+    width: 95%;
+    border: 2px solid #000;
+}
+.login .form-group .btn-primary{
+    padding: 10px 70px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #eee;
+    background: #000;
+}
+.login .form-group .btn-primary:hover{
+    color: aqua;
+    cursor: pointer;
+    background: red;
+}
+ .login .form-group select{
+    padding: 15px;
+    width: 100%;
+ }
+ .login .form-group textarea{
+    bottom: 100%;
+ }
+ .login .about{
+    padding:15px ;
+    width: 95%;
+
+ }
